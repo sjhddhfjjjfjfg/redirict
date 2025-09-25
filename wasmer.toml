@@ -1,0 +1,10 @@
+[package]
+name = "my-redirect"
+version = "0.1.0"
+
+[dependencies]
+
+[command]
+# server ko batata hai index.js kaunsa file chalana hai
+name = "redirect"
+module = "index.js"
